@@ -10,13 +10,13 @@
     that includes natural and engineered sequences with single or multiple mutations upon the natural sequence. 
 
 *Approach:
-   The approach in this repository formulates the problem as regression task, using regression model with protien sequence as input. I compared the performance of 3 different regressors 
+   The approach in this repository formulates the problem as regression task, using regression model with protein sequence as input. I compared the performance of 3 different regressors 
    namely "Random forest regressor", "Linear regression", and "Least Angle regression" 
    
  *Summary of the performance achieved** Our best model was able to predict the melting point with the least value of RMSE
 
 ## Summary of Workdone:
-The given protien sequence was converted to numerical values to make it suitable for regression models. Each letter (A,B etc) counts for every sequence are provided as features or predictors
+The given protein sequence was converted to numerical values to make it suitable for regression models. Each letter (A,B etc) counts for every sequence are provided as features or predictors
 and the melting point is the target. I used training set for the validation as the given test set didn't have any target column. To analayze and conclude, prediction I used RMSE, MAE, MSE
 as metric. 
 
@@ -24,7 +24,7 @@ as metric.
 
 * Data:
   * Type: 
-    * Input: CSV file of features (Protien sequence), output: Meltingpoint(Target).
+    * Input: CSV file of features (Protein sequence), output: Meltingpoint(Target).
   * Size: 16.36 Mb
   * Instances (Train, Test, Validation Split): 20349 amino_sequence for training, taining set was used for validation.
   
@@ -52,7 +52,7 @@ as metric.
 ### Problem Formulation
 
 * Define:
-  * Input: Protien sequence
+  * Input: Protein sequence
   * Output: Melting point
   * Models
     * Random forest regressors, Linear regression, Least angle regression. Reason: to determine the strength of the prediction by comparing the models based on perfomance evaluaton metrics
