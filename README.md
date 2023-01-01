@@ -6,7 +6,7 @@
 ## Overview
 
 * challenge:
-   The task, as defined by the Kaggle challenge is to predict the thermostability of the enzymes variant using the experimentally measured thermostability which is the melting point data 
+   The task, as defined by the Kaggle challenge is to predict the thermostability of the enzyme variants using the experimentally measured thermostability which is the melting point data 
     that includes natural and engineered sequences with single or multiple mutations upon the natural sequence. 
 
 *Approach:
@@ -24,7 +24,7 @@ as metric.
 
 * Data:
   * Type: 
-    * Input: CSV file of features (Protein sequence), output: Meltingpoint(Target).
+    * Input: CSV file of features (Protein sequence), output: Melting point(Target).
   * Size: 16.36 Mb
   * Instances (Train, Test, Validation Split): 20349 amino_sequence for training, taining set was used for validation.
   
@@ -60,12 +60,12 @@ as metric.
 
 ### Training
 
-* Describe the training:
-  * How you trained: software- Anaconda, Ide- Jupyter notebook and hardware- Personal laptop.
-                   : randomserachCv was used to find the best parameters to improve model
+* Description of training:
+  * How I trained: software- Anaconda, Ide- Jupyter notebook and hardware- Personal laptop.
+                   : randomserachCv was used to find the best parameters to improve the model
                    : model was fit based on the best case of hyperparameter tuning(best value of hyperparameters)
-  * How long did training take- more than 20 mins
-  * limited the hyperparameter due to less computation power.or else grid search
+  * Time take for training- more than 20 mins
+  * limited the hyperparameter due to less computation power or else grid search would have been used 
   ![image](https://user-images.githubusercontent.com/112579358/207648845-4080ac47-bab0-4f38-9c49-e3d830ff18c2.png)
 
   * No difficulties
@@ -92,7 +92,7 @@ as metric.
 
 * I would try using the same approach with neuarl networs to come out with even more clear insights .
 * What are some other studies that can be done starting from here: Reasearchers who does artificial protien sequencing can use the combinations of sequnece
-                                                                  that produced best thermostability 
+                                                                  that produced best thermostability to bring out an enhanced performance 
 
 
 ### Software Setup
@@ -106,7 +106,7 @@ as metric.
 
 ### Data
 
-* Point to where they can download the data:  
+* download the data using this link:  
     https://www.kaggle.com/competitions/novozymes-enzyme-stability-prediction/data
 
 #### Performance Evaluation
