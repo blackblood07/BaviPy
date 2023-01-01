@@ -1,4 +1,6 @@
-# Project Title
+# Novozymes Enzyme stability pretiction
+![Enzyme pic](https://user-images.githubusercontent.com/112579358/210184969-29ba23a6-bb07-4107-8cef-0dee01525aeb.png)
+
 
 * **Summary**:  This repository holds an attempt to apply regression models to predict enzyme stability using data from
 "Novozymes Enzyme Stability Prediction" Kaggle challenge (https://www.kaggle.com/competitions/novozymes-enzyme-stability-prediction). 
@@ -43,9 +45,11 @@ as metric.
 
 ![image](https://user-images.githubusercontent.com/112579358/207647770-c8b884a2-abd1-4227-a702-e8faee0e4f23.png)
 
-![image](https://user-images.githubusercontent.com/112579358/207647987-6164e144-ec63-4669-89b1-c5b15d2d59a4.png)
+![image](https://user-images.githubusercontent.com/112579358/210184928-d6109b07-5280-4fce-a6b7-209abe306075.png)
 
-![image](https://user-images.githubusercontent.com/112579358/207648390-f805349a-7b02-4b24-a6e1-0115dd465385.png)
+
+![image](https://user-images.githubusercontent.com/112579358/210184949-7177fb52-38e1-400f-9f8c-cc5226d6b6d3.png)
+
 
 
 
